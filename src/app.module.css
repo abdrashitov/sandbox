@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.navy {
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navy span {
+    cursor: pointer;
+    color: rgb(186, 64, 117)
+}
+
+.navy [data-active=true] {
+    color: #000;
+    text-decoration: underline;
+}
