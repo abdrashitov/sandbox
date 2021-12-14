@@ -27,6 +27,7 @@ const App = () => {
     return (
         <div className={styles.wrapper}>
             <div>
+                <div>v 0.0.7<br /><br /></div>
                 <div className={styles.navy}>
                     <span onClick={() => setDatepicker(1)} data-active={datepicker === 1}>Null</span>
                     <span onClick={() => setDatepicker(2)} data-active={datepicker === 2}>Value</span>
