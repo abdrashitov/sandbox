@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle-[contenthash].js',
-    publicPath: '/'
+    publicPath: '/sandbox'
   },
   entry: './src/index.tsx',
   resolve: {
