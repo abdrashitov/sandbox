@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = '/static/sample.pdf';
+      window.location.href = 'http://vkusno-foto.ru/sample.pdf';
     }, 2000)
   }, [])
 
