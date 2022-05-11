@@ -2,7 +2,12 @@ const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin').CleanWebpackPlugin;
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+require('dotenv').config({
+  path: path.join(__dirname, '.env')
+});
 
 module.exports = {
   mode: 'production',
@@ -71,6 +76,15 @@ module.exports = {
     ],
   },
   plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: '**/*',
+          context: path.resolve(__dirname, 'src', 'static'),
+          to: './static'
+        }
+      ]
+    }),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       filename: 'index.html',
@@ -84,6 +98,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'style-[contenthash].css'
     }),
+    new webpack.EnvironmentPlugin([
+      'PUBLIC_URL',
+      'REACT_APP_API',
+      'REACT_APP_STATIC',
+      'REACT_APP_INSTANCE',
+      'REACT_APP_SMZ',
+      'REACT_APP_CHAT_SOCKET'
+    ]),
     new CleanWebpackPlugin(),
   ]
 };

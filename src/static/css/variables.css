@@ -1,0 +1,28 @@
+:root {
+  /*--image-logo: url(../images/logo.svg) no-repeat 0 50% / contain;*/
+
+  --text-size-s: 12px;
+  --text-size-m: 13px;
+  --text-size-r: 15px;
+  --text-size-x: 18px;
+  --text-size-xl: 20px;
+  --text-size-xxl: 24px;
+  --text-size-xxxl: 32px;
+
+  --color-custom: 76, 133, 255; /* #4C85FF */
+  --color-base: 255, 255, 255; /* #FFFFFF */
+  --color-text: 61, 64, 71; /* #3D4047 */
+  --color-gray: 147, 151, 161; /* #9397A1 */
+  --color-light: 231, 234, 237; /* #E7EAED */
+  --color-cancel: 237, 240, 249; /* #EDF0F9 */
+  --color-disabled: 176, 184, 191; /* #B0B8BF */
+  --color-category: 181, 188, 209; /* B5BCD1 */
+  --color-error: 248, 119, 119; /* #F87777 */
+  --color-success: 129, 211, 157; /* #81D39D */
+  --color-income: 32, 184, 75; /* #20B84B */
+  --color-transfer: 129, 211, 157; /* #81D39D */
+  --color-payment: 128, 167, 251; /* #80A7FB */
+  --color-services: 181, 188, 209; /* B5BCD1 */
+
+  --transition: 300ms ease-out 0s;
+}
