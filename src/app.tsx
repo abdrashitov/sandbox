@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       window.location.href = '/sandbox/static/sample.pdf';
-    }, 2000)
+    }, 2000)https://api.github.com/repos/:abdrashitov/:sandbox/dispatches
   }, [])
 
   return (
