@@ -1,14 +1,14 @@
 :root {
-  --color-general-custom-first: #ff006e;
+  --color-general-custom-first: #bd2052;
   --color-general-custom-secondary: #e58461;
   --color-general-frosty-sky: #00b7ff;
   --color-general-black: #2f3137;
   --color-general-graphite: #42454d;
-  --color-general-graphite: #686d79;
+  --color-general-graphite-plus: #686d79;
   --color-general-grey: #9397a1;
-  --color-general-grey: #bec0c7;
+  --color-general-grey-plus: #bec0c7;
   --color-general-modern-grey: #c6ccd2;
-  --color-general-modern-grey: #d8dade;
+  --color-general-modern-grey-plus: #d8dade;
   --color-general-light-grey: #e7eaed;
   --color-general-smoky-white: #f3f4f5;
   --color-general-ghostly-white: #f9f9fa;
