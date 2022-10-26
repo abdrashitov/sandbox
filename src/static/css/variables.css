@@ -1,28 +1,39 @@
 :root {
-  /*--image-logo: url(../images/logo.svg) no-repeat 0 50% / contain;*/
-
-  --text-size-s: 12px;
-  --text-size-m: 13px;
-  --text-size-r: 15px;
-  --text-size-x: 18px;
-  --text-size-xl: 20px;
-  --text-size-xxl: 24px;
-  --text-size-xxxl: 32px;
-
-  --color-custom: 76, 133, 255; /* #4C85FF */
-  --color-base: 255, 255, 255; /* #FFFFFF */
-  --color-text: 61, 64, 71; /* #3D4047 */
-  --color-gray: 147, 151, 161; /* #9397A1 */
-  --color-light: 231, 234, 237; /* #E7EAED */
-  --color-cancel: 237, 240, 249; /* #EDF0F9 */
-  --color-disabled: 176, 184, 191; /* #B0B8BF */
-  --color-category: 181, 188, 209; /* B5BCD1 */
-  --color-error: 248, 119, 119; /* #F87777 */
-  --color-success: 129, 211, 157; /* #81D39D */
-  --color-income: 32, 184, 75; /* #20B84B */
-  --color-transfer: 129, 211, 157; /* #81D39D */
-  --color-payment: 128, 167, 251; /* #80A7FB */
-  --color-services: 181, 188, 209; /* B5BCD1 */
-
-  --transition: 300ms ease-out 0s;
+  --color-general-custom-first: #ba4075;
+  --color-general-custom-secondary: #e58461;
+  --color-general-frosty-sky: #00b7ff;
+  --color-general-black: #2f3137;
+  --color-general-graphite: #42454d;
+  --color-general-graphite: #686d79;
+  --color-general-grey: #9397a1;
+  --color-general-grey: #bec0c7;
+  --color-general-modern-grey: #c6ccd2;
+  --color-general-modern-grey: #d8dade;
+  --color-general-light-grey: #e7eaed;
+  --color-general-smoky-white: #f3f4f5;
+  --color-general-ghostly-white: #f9f9fa;
+  --color-general-white: #ffffff;
+  --color-system-success: #61af53;
+  --color-system-attention: #ffa000;
+  --color-system-critical: #e75671;
+  --color-system-optional: #5f8ce5;
+  --color-extra-grey-window: #90a4ae;
+  --color-extra-lime: #c0ca33;
+  --color-extra-orange-peel: #ffa000;
+  --color-extra-peach: #f47671;
+  --color-extra-pink: #f06292;
+  --color-extra-purple: #ba68c8;
+  --color-extra-deep-purple: #9575cd;
+  --color-extra-indigo: #7986cb;
+  --color-extra-cyan: #26c6da;
+  --color-extra-teal: #4db6ac;
+  --color-extra-brown: #a1887f;
+  --color-transparent-custom-32: rgba(186, 64, 117, 0.32);
+  --color-transparent-custom-16: rgba(186, 64, 117, 0.16);
+  --color-transparent-custom-8: rgba(186, 64, 117, 0.08);
+  --color-transparent-critical-80: rgba(231, 86, 113, 0.8);
+  --color-transparent-critical-72: rgba(231, 86, 113, 0.72);
+  --color-transparent-optional-52: rgba(95, 140, 229, 0.52);
+  --color-transparent-optional-32: rgba(95, 140, 229, 0.32);
+  --color-transparent-optional-12: rgba(95, 140, 229, 0.12);
 }
