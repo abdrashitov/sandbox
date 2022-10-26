@@ -5,14 +5,17 @@ import styles from './app.module.css';
 const App = () => {
 
   useEffect(() => {
-    setTimeout(() => {
-      window.location.href = '/sandbox/static/sample.pdf';
-    }, 2000)
+
   }, [])
 
   return (
     <div className={styles.wrapper}>
-      Страница для тестирования
+      <div className={styles.aside}>
+          Наш прекрасный сайдбар
+      </div>
+        <div className={styles.main}>
+            Сделай паузу, скушай Твикс!
+        </div>
     </div>
   );
 };

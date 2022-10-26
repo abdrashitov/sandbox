@@ -5,29 +5,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-size: 13px;
 }
 
 .wrapper {
   display: flex;
   width: 100vw;
   height: 100vh;
-  align-items: center;
-  justify-content: center;
 }
 
-.navy {
-  margin: 0 0 20px;
-  display: flex;
-  justify-content: space-between;
+.aside {
+  width: 300px;
+  height: 100vh;
+  background: var(--color-general-custom-first);
+  padding: 50px 20px;
+  color: var(--color-general-white);
+  flex-shrink: 0;
 }
 
-.navy span {
-  cursor: pointer;
-  color: rgb(186, 64, 117);
-}
-
-.navy [data-active='true'] {
-  color: #000;
-  text-decoration: underline;
+.main {
+  flex-grow: 1;
+  padding: 50px;
+  color: var(--color-general-graphite);
+  font-size: var(--typography-head-h1-font-size)
 }
