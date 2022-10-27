@@ -26,5 +26,15 @@
   flex-grow: 1;
   padding: 50px;
   color: var(--color-general-graphite);
-  font-size: var(--typography-head-h1-font-size)
+  max-width: 1000px;
+}
+
+.header {
+  color: var(--color-general-graphite-plus);
+  font-size: var(--typography-head-h1-font-size);
+  margin-bottom: 40px;
+}
+
+p {
+  padding: 15px 0;
 }
